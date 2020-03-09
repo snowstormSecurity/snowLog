@@ -5,7 +5,7 @@ function write-snowLog { <#
     param(
         [parameter(Mandatory = $true, ValueFromPipeline = $false, Position = 1)][string]$logName,
         [parameter(Mandatory = $true, ValueFromPipeline = $false, Position = 2)][Alias("step")][string]$action,
-        [parameter(Mandatory = $true, ValueFromPipeline = $false, Position = 3)][string]$status,
+        [parameter(Mandatory = $false, ValueFromPipeline = $false, Position = 3)][string]$status,
         [parameter(Mandatory = $false, ValueFromPipeline = $false, Position = 4)][Alias("uOrigin")][string]$userOrigin=(whoami),
         [parameter(Mandatory = $false, ValueFromPipeline = $false, Position = 5)][Alias("uImpacted")][string]$userImpacted=$global:userImpacted,
         [parameter(Mandatory = $false, ValueFromPipeline = $false, Position = 6)][Alias("ipOrigin","hOrigin")][string]$hostOrigin=$global:hostOrigin,
@@ -149,6 +149,8 @@ function clear-snowLogVariables { <#
     $global:protocol = $null
     $global:object = $null
     $global:objectName = $null
+
+    show-snowLogVariables
 }
 
 function set-snowLogRoot { <#
@@ -201,7 +203,7 @@ function get-snowLog { <#
         $fileFullName = (Get-childitem -path $logFolderName -file | sort-object LastWriteTime)[-1].FullName
     }
     else{
-        $logFileFullname = Join-path -path $logFolderName -ChildPath $logdate
+        $logFileFullname = Join-path -path $logFolderName -ChildPath ($logdate + $extension)
         if($false -eq (Test-Path $logFileFullname)){
             Write-Error "Unable to find log: $logFileFullname"
             break
