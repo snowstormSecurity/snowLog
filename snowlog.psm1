@@ -1,5 +1,5 @@
 function write-snowLog { <#
-    .EXTERNALHELP xxxxx.psm1-Help.xml
+    .EXTERNALHELP snowlog.psm1-Help.xml
 #>
     [CmdletBinding()]
     param(
@@ -98,7 +98,7 @@ function write-snowLog { <#
 
 }
 function show-snowLogVariables { <#
-    .EXTERNALHELP xxxxx.psm1-Help.xml
+    .EXTERNALHELP snowlog.psm1-Help.xml
 #>
     [CmdletBinding()]
     param(
@@ -126,7 +126,7 @@ function show-snowLogVariables { <#
 
 }
 function clear-snowLogVariables { <#
-    .EXTERNALHELP xxxxx.psm1-Help.xml
+    .EXTERNALHELP snowlog.psm1-Help.xml
 #>
     [CmdletBinding()]
     param(
@@ -152,7 +152,7 @@ function clear-snowLogVariables { <#
 }
 
 function set-snowLogRoot { <#
-    .EXTERNALHELP xxxxx.psm1-Help.xml
+    .EXTERNALHELP snowlog.psm1-Help.xml
 #>
     [CmdletBinding()]
     param(
@@ -173,7 +173,7 @@ function set-snowLogRoot { <#
 }
 
 function get-snowLog { <#
-    .EXTERNALHELP xxxxx.psm1-Help.xml
+    .EXTERNALHELP snowlog.psm1-Help.xml
 #>
     [CmdletBinding()]
     param(
