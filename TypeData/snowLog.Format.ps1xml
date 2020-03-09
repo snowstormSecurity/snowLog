@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+	<ViewDefinitions>
+		<View>
+			<Name>Snow Log Format</Name>
+			<ViewSelectedBy>
+				<TypeName>CSV:SnowLog.Log</TypeName>
+			</ViewSelectedBy>
+			<ListControl>
+				<ListEntries>
+					<ListEntry>
+						<ListItems>
+							<ListItem>
+								<PropertyName>DateTime</PropertyName>
+							</ListItem>
+							<ListItem>
+								<PropertyName>LogName</PropertyName>
+							</ListItem>
+							<ListItem>
+								<PropertyName>Action</PropertyName>
+							</ListItem>
+							<ListItem>
+								<PropertyName>Status</PropertyName>
+							</ListItem>
+							<ListItem>
+								<PropertyName>ProcessName</PropertyName>
+							</ListItem>
+							<ListItem>
+								<PropertyName>Command</PropertyName>
+							</ListItem>
+							<ListItem>
+								<PropertyName>Message</PropertyName>
+							</ListItem>							
+						</ListItems>
+					</ListEntry>
+				</ListEntries>
+			</ListControl>
+		</View>
+		<View>
+			<Name>Snow Log Format</Name>
+			<ViewSelectedBy>
+				<TypeName>CSV:SnowLog.Log</TypeName>
+			</ViewSelectedBy>		
+			<TableControl>
+				<TableHeaders>
+					<TableColumnHeader>
+						<Label>DateTime</Label>
+						<Width>20</Width>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>LogName</Label>
+						<Width>20</Width>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>Action</Label>
+						<Width>20</Width>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>Status</Label>
+						<Width>20</Width>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>ProcessName</Label>
+						<Width>20</Width>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>Command</Label>
+						<Width>35</Width>
+					</TableColumnHeader>
+					<TableColumnHeader>
+						<Label>Message</Label>
+						<Width>75</Width>
+					</TableColumnHeader>
+				</TableHeaders>
+				<TableRowEntries>
+					<TableRowEntry>
+						<TableColumnItems>
+							<TableColumnItem>
+								<PropertyName>DateTime</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>LogName</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Action</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Status</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>ProcessName</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Command</PropertyName>
+							</TableColumnItem>
+							<TableColumnItem>
+								<PropertyName>Message</PropertyName>
+							</TableColumnItem>
+						</TableColumnItems>
+					</TableRowEntry>
+				</TableRowEntries>
+			</TableControl>
+		</View>
+	</ViewDefinitions>
+</Configuration>
+<!-- SIG # Begin signature block -->
+<!-- MIIJBgYJKoZIhvcNAQcCoIII9zCCCPMCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB -->
+<!-- gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR -->
+<!-- AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUYhRP47IJyf84NCh6u39aha2/ -->
+<!-- Gp6gggZMMIIGSDCCBTCgAwIBAgITGwAABKwupaJooNT+AgAAAAAErDANBgkqhkiG -->
+<!-- 9w0BAQsFADBrMRMwEQYKCZImiZPyLGQBGRYDY29tMRgwFgYKCZImiZPyLGQBGRYI -->
+<!-- bWlsbGltYW4xGjAYBgoJkiaJk/IsZAEZFgptZWRpbnNpZ2h0MR4wHAYDVQQDExVt -->
+<!-- ZWRpbnNpZ2h0LVNFQURDMDItQ0EwHhcNMTYwOTE1MTQ1NzUxWhcNMTgwOTE1MTUw -->
+<!-- NzUxWjCBjzETMBEGCgmSJomT8ixkARkWA2NvbTEYMBYGCgmSJomT8ixkARkWCG1p -->
+<!-- bGxpbWFuMRowGAYKCZImiZPyLGQBGRYKbWVkaW5zaWdodDERMA8GA1UECxMITWls -->
+<!-- bGltYW4xFzAVBgNVBAsTDlRPUFMgRW1wbG95ZWVzMRYwFAYDVQQDEw1KYXNvbiBC -->
+<!-- b2hyZWVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0cf+PjS5y16V -->
+<!-- e5hhoDs3riv4Q3ZNfXpIrREncG595FqcpE0GmTwniyzFpvTEn8L3jlR2l/dbAOHx -->
+<!-- VPEvMQ6S7bS9iqqWIhwvc+VhXMdrSCX1c4iqavmaD9ySQbpT62gB6rp0GBRo6HQ7 -->
+<!-- +bAP7EJDLV4DPCb2QbT+wurBm3ANCZSO29vAHJl+7m2tABaGzo2AtiDfAm2SHowp -->
+<!-- cAW/f/EY6ijyu3lo84HIujaCrqJqxvq/let5jOJ1j2Y2YtpuoDEM1A9CKe2IkmBM -->
+<!-- kJPb8NDWx5uqX0JyQ27zeyi4zdyq8CuQp0lPwvhIG3aj/jBmkuun91CNgTpDVAmP -->
+<!-- rdDLiuTdtwIDAQABo4ICvjCCArowPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUI -->
+<!-- g9DhRYG+4xyGoYM3goPBO4an1XI7hpWpRoXpl3ICAWQCAQMwEwYDVR0lBAwwCgYI -->
+<!-- KwYBBQUHAwMwDgYDVR0PAQH/BAQDAgeAMBsGCSsGAQQBgjcVCgQOMAwwCgYIKwYB -->
+<!-- BQUHAwMwHQYDVR0OBBYEFJGm9Wiem20etTsYkeV8afYSZazQMB8GA1UdIwQYMBaA -->
+<!-- FLYRf+05IqqmjXkrxE0WsmixIHCdMIHiBgNVHR8EgdowgdcwgdSggdGggc6Ggcts -->
+<!-- ZGFwOi8vL0NOPW1lZGluc2lnaHQtU0VBREMwMi1DQSxDTj1HRUdEQzAyLENOPUNE -->
+<!-- UCxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25m -->
+<!-- aWd1cmF0aW9uLERDPW1lZGluc2lnaHQsREM9bWlsbGltYW4sREM9Y29tP2NlcnRp -->
+<!-- ZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZT9vYmplY3RDbGFzcz1jUkxEaXN0cmli -->
+<!-- dXRpb25Qb2ludDCB1gYIKwYBBQUHAQEEgckwgcYwgcMGCCsGAQUFBzAChoG2bGRh -->
+<!-- cDovLy9DTj1tZWRpbnNpZ2h0LVNFQURDMDItQ0EsQ049QUlBLENOPVB1YmxpYyUy -->
+<!-- MEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9 -->
+<!-- bWVkaW5zaWdodCxEQz1taWxsaW1hbixEQz1jb20/Y0FDZXJ0aWZpY2F0ZT9iYXNl -->
+<!-- P29iamVjdENsYXNzPWNlcnRpZmljYXRpb25BdXRob3JpdHkwOQYDVR0RBDIwMKAu -->
+<!-- BgorBgEEAYI3FAIDoCAMHmphc29uYkBtZWRpbnNpZ2h0Lm1pbGxpbWFuLmNvbTAN -->
+<!-- BgkqhkiG9w0BAQsFAAOCAQEALrxEFDRirxHqHu74TqIvKoFvww7bFYD/h5vONn+Y -->
+<!-- OtjA1nhkEZRIp0ucJvnP/H3QnPnUgrxmzBT/VYnkr21Ul9SiY8WkAgYnQQgFnaKO -->
+<!-- fOvanWBjMPpXBJDVRYJhyCaTH05qGl1TTcKt9JKa4qneS4gjyshPAXDeQsTnAxbC -->
+<!-- V4SUNfHs/068+2hRVd5RaNfzJj/ksYMUjigvTb/gtP3lSfhB6sDIxUdNf76q7yOu -->
+<!-- WJGPvfbnoq6/ZGhw61E48vjxARZfmmCg2SMBJPg/GlTLG0HOeu170AydN4xfYAeF -->
+<!-- Srq6njtHE3CLa3VwIHnzCT8oC0uR6KhldLH2u4kyTmMJMjGCAiQwggIgAgEBMIGC -->
+<!-- MGsxEzARBgoJkiaJk/IsZAEZFgNjb20xGDAWBgoJkiaJk/IsZAEZFghtaWxsaW1h -->
+<!-- bjEaMBgGCgmSJomT8ixkARkWCm1lZGluc2lnaHQxHjAcBgNVBAMTFW1lZGluc2ln -->
+<!-- aHQtU0VBREMwMi1DQQITGwAABKwupaJooNT+AgAAAAAErDAJBgUrDgMCGgUAoHgw -->
+<!-- GAYKKwYBBAGCNwIBDDEKMAigAoAAoQKAADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGC -->
+<!-- NwIBBDAcBgorBgEEAYI3AgELMQ4wDAYKKwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQx -->
+<!-- FgQUOG96z9+L6IQ6SCLzUU1oQswRVTkwDQYJKoZIhvcNAQEBBQAEggEAoFA3UF2j -->
+<!-- ulVZzNeKWxjUdPdE/er5+PPyS7gvl27RC55wYD+HQzETmpwaE99wlChE3ke8fS1j -->
+<!-- PIi1b3Pw36eUsfU7JYfadb9HOefHmyntO2WXm09yvX5pP6SVF8rSME7WAXMLYYmx -->
+<!-- UUDlYDO3F3Zdk9Tj3VIsYxdyMBn6EVWnCdm4pDusnKAlabtq2XsYfp1NDeu82CIn -->
+<!-- QIEnQVGoKBrTdQxvW4rbQS/Jzeu4nVSjGSbcn7Pg+I2FZPUQNZjz3h6UzWvJYZ0W -->
+<!-- FJtlhE/WKp+0j5JiB10+JTWoiszvtYRtsdr2O5kheMglwbWoUAOc8Jy1yarwRdtD -->
+<!-- i8hkd4jSNYlHbQ== -->
+<!-- SIG # End signature block -->
