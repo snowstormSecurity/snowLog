@@ -94,7 +94,7 @@ function write-snowLog { <#
     $diagOutput.psobject.TypeNames[0] = 'SnowLog.Log'
     
     # Output Object to File Path
-    $diagOutput | export-csv -path $outputFile -Append
+    $diagOutput | export-csv -path $outputFile -Append -NoTypeInformation
 
 }
 function show-snowLogVariables { <#
